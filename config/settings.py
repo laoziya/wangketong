@@ -1,0 +1,9 @@
+DEBUG = True
+HOST = "0.0.0.0"
+PORT = 5000
+
+
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:123456@127.0.0.1/flask_test?charset=utf8'
+SQLALCHEMY_TRACK_MODIFI = True
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+
